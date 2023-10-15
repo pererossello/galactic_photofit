@@ -4,18 +4,15 @@
 Pere Rosselló
 
 ## Overview
-This project revolves around the photometric decomposition of the galaxy UGC09629. It was initially developed as part of the subject "Física Extragaláctica" within an astrophysics program. The focus lies on unraveling the physical characteristics of UGC09629 through photometric analysis.
+This project revolves around the photometric decomposition of the galaxy UGC09629. It was initially developed as part of the subject "Física Extragaláctica" within an astrophysics program at ULL. The focus lies on unraveling the physical characteristics of UGC09629 through photometric analysis.
 
 ## Directory Structure
-Here's a brief description of the repository structure:
+Brief description of the repository structure:
 
-- `bin/`: Houses FITS files, configuration data, and Jupyter notebooks for various tasks like fitting and plotting. Also includes utility Python scripts.
-    - Subdirectories include `archivos_galaxias` and `figures`, among others.
 - `code/`: The main codebase. Contains Jupyter notebooks for fitting, plotting, and comparison, along with utility Python scripts.
-    - Notable subdirectories are `extra/` and `plots/`.
-- `data/`: Contains FITS files and example data for reference.
+- `data/`: Contains FITS files.
 - `figures/`: Stored visualizations, including plots and comparison metrics.
-- `results/`: Contains stored results, mainly as .nc files and .txt files detailing parameters and differences.
+- `results/`: Contains stored results, mainly as .nc files and .txt files detailing parameters, and posto-processed data.
 
 ## How to Run
 - You'll need to have Python installed, along with some specific packages.
@@ -29,9 +26,15 @@ Here's a brief description of the repository structure:
 ## Contributing
 Feel free to fork and submit pull requests. For bugs and feature requests, please create an issue.
 
-## Additional Resources
-- `class_notes.md` and `some_notes.tex` in `extra/` folder provide extra information and details.
+### Core Libraries Used in this Project
 
-This project is really about taking the fuzzy dots we see in the sky and transforming them into hard numbers and comprehensible data. Because let's be real—nobody likes an inscrutable galaxy.
+In this project, two essential Python libraries were integral to our analysis:
 
-And that's the skinny of it. Feel free to dive in!
+1. **pyimfit**: 
+   - A powerful library tailored for the fitting of astronomical images.
+   - [Official Documentation](https://pyimfit.readthedocs.io/)
+
+2. **photutils**: 
+   - A library that provides tools for detecting and performing photometry of astronomical sources.
+   - [Official Documentation](https://photutils.readthedocs.io/)
+
