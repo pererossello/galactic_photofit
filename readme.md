@@ -23,9 +23,6 @@ Brief description of the repository structure:
 - `init_imports.py`: Initializes all imports.
 - `utils.py` and `plot_utils.py`: Utility scripts to ease the process.
 
-## Contributing
-Feel free to fork and submit pull requests. For bugs and feature requests, please create an issue.
-
 ### Core Libraries Used in this Project
 
 In this project, two essential Python libraries were integral to our analysis:
